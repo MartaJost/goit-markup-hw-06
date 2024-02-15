@@ -1,7 +1,6 @@
 .btn {
   cursor: pointer;
   background-color: #4d5ae5;
-  border-radius: 4px;
   color: #ffffff;
   font-size: 'Roboto', sans-serif;
   font-weight: 500;
@@ -43,9 +42,7 @@ a {
 button {
   cursor: pointer;
 }
-img {
-  display: block;
-}
+
 address {
   font-style: normal;
 }
@@ -102,7 +99,7 @@ body {
   background-color: #2e2f42;
 }
 .caption-benefits {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -152,17 +149,18 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
 }
 .occupation {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #434455;
 }
 /*-- section-third--*/
+.portfolio-list-item {
+  background-color: #ffffff;
+}
 
 .caption-portfolio {
   font-weight: 700;
@@ -170,7 +168,6 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-align: center;
   color: #2e2f42;
 }
 .caption-name {
