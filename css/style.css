@@ -158,10 +158,9 @@ body {
   color: #434455;
 }
 /*-- section-third--*/
-.portfolio-list {
+.name {
   background-color: #ffffff;
 }
-
 .caption-portfolio {
   font-weight: 700;
   font-size: 36px;
