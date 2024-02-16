@@ -94,11 +94,11 @@ body {
 .info-link:focus {
   color: #404bbf;
 }
-/*--section-second--*/
+/*--section-first--*/
 .section-first {
   background-color: #2e2f42;
 }
-.caption-benefits {
+.caption {
   font-weight: 500;
   font-size: 56px;
   line-height: 1.07;
