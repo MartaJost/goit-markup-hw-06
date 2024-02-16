@@ -158,9 +158,15 @@ body {
   color: #434455;
 }
 /*-- section-third--*/
-.name {
+.section-our-portfolio {
   background-color: #ffffff;
 }
+
+.name {
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
 .caption-portfolio {
   font-weight: 700;
   font-size: 36px;
