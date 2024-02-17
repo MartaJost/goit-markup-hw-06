@@ -158,19 +158,16 @@ body {
   color: #434455;
 }
 /*-- section-third--*/
-.section-our-portfolio {
-  background-color: #ffffff;
-}
 
-.name {
+.title-name {
   background-color: #ffffff;
-  margin-bottom: 20px;
 }
 
 .caption-portfolio {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
