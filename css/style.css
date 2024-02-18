@@ -136,14 +136,16 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 /*-- section-third--*/
 
 .section-our-team {
   background-color: #f4f4fd;
 }
-.caption-team {
+.team-list {
   background-color: #ffffff;
 }
+
 .collective-name {
   font-weight: 500;
   font-size: 20px;
@@ -158,10 +160,6 @@ body {
   color: #434455;
 }
 /*-- section-third--*/
-
-.title-name {
-  background-color: #ffffff;
-}
 
 .caption-portfolio {
   font-weight: 700;
