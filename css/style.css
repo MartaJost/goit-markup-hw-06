@@ -212,7 +212,7 @@ body {
   gap: 24px;
 }
 .benefits-list-item {
-  width: calc((100%-72) / 3);
+  width: calc((100%-72px) / 3);
 }
 .caption-benefits-none {
   position: absolute;
@@ -338,64 +338,13 @@ body {
   margin-bottom: 8px;
 }
 
-/* .name-banking {
-  margin-left: 16px;
-  margin-right: 226px;
-  margin-top: 32px;
-  margin-bottom: 8px;
-}
-.name-cashless {
-  margin-left: 16px;
-  margin-right: auto;
-  margin-top: 32px;
-  margin-bottom: 8px;
-}
-.name-meditation {
-  margin-left: 16px;
-  margin-right: 201px;
-  margin-top: 32px;
-  margin-bottom: 8px;
-}
-.name-taxi {
-  margin-left: 16px;
-  margin-right: 231px;
-  margin-top: 32px;
-  margin-bottom: 8px;
-}
-.name-screen {
-  margin-left: 16px;
-  margin-right: auto;
-  margin-top: 32px;
-  margin-bottom: 8px;
-}
-.name-online {
-  margin-left: 16px;
-  margin-right: 202px;
-  margin-top: 32px;
-  margin-bottom: 8px;
-} */
 .caption-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-/* 
-.text-app {
-  margin-left: 16px;
-  margin-right: 314px;
-  margin-bottom: 32px;
-}
-.text-marketing {
-  margin-left: 16px;
-  margin-right: 269px;
-  margin-bottom: 32px;
-}
-.text-design {
-  margin-left: 16px;
-  margin-right: 293px;
-  margin-bottom: 32px;
-} */
+
 /*--footer--*/
 footer {
   background-color: #2e2f42;
