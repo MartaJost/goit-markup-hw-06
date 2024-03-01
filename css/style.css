@@ -73,7 +73,9 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
+.container-header {
+  display: flex;
+}
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -82,6 +84,9 @@ body {
 .page-nav {
   display: flex;
   align-items: center;
+}
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
 }
 .menu {
   display: flex;
@@ -129,14 +134,11 @@ body {
 .info-list {
   display: flex;
   gap: 40px;
-  justify-content: end;
 }
-
-.info-link-email {
-  margin-left: 332px;
-  margin-right: 40px;
-  margin-top: 24px;
-  margin-bottom: 24px;
+.info {
+  display: flex;
+  padding-left: 332px;
+  padding-top: 24px;
 }
 
 .info-link {
@@ -153,6 +155,7 @@ body {
 /*--section-first--*/
 .section-first {
   background-color: #2e2f42;
+  padding: 188px 0 188px;
 }
 .caption {
   margin-left: auto;
@@ -190,6 +193,20 @@ body {
   background: #404bbf;
 }
 /*--section-second--*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .benefits-list {
   display: flex;
   gap: 24px;
