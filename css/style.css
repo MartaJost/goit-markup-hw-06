@@ -255,8 +255,8 @@ body {
 }
 .team-list-item {
   background-color: #ffffff;
-  width: calc((100%-72) / 4);
   border-radius: 0 0 4px 4px;
+  width: calc((100%-72px) / 4);
 }
 .team-list {
   display: flex;
@@ -280,34 +280,6 @@ body {
   width: 264px;
 }
 
-/* .collective-name {
-  margin-top: 32px;
-  margin-bottom: 8px;
-  margin-left: 65px;
-  margin-right: 65px;
-} */
-
-/* .name-tom {
-  margin-top: 32px;
-  margin-bottom: 8px;
-  margin-left: 88px;
-  margin-right: 88px;
-}
-
-.name-camila {
-  margin-top: 32px;
-  margin-bottom: 8px;
-  margin-left: 67px;
-  margin-right: 67px;
-}
-
-.name-daniel {
-  margin-top: 32px;
-  margin-bottom: 8px;
-  margin-left: 68.5px;
-  margin-right: 68.5px;
-} */
-
 .caption-team {
   font-weight: 700;
   font-size: 36px;
@@ -326,30 +298,6 @@ body {
   text-align: center;
 }
 
-/* .occupation {
-  margin-bottom: 32px;
-  margin-left: 68px;
-  margin-right: 68px;
-} */
-
-/* .occupation-developer {
-  margin-bottom: 32px;
-  margin-left: 60px;
-  margin-right: 60px;
-}
-
-.occupation-marketing {
-  margin-bottom: 32px;
-  margin-left: 94.5px;
-  margin-right: 94.5px;
-}
-
-.occupation-designer {
-  margin-bottom: 32px;
-  margin-left: 89.5px;
-  margin-right: 89.5px;
-}  */
-
 /*-- section-third--*/
 .caption-portfolio-list {
   display: flex;
@@ -357,7 +305,6 @@ body {
   align-content: space-around;
   column-gap: 24px;
   row-gap: 48px;
-  width: calc((100%-48) / 3);
 }
 .portfolio-list-item {
   padding: 32px 16px;
@@ -367,6 +314,7 @@ body {
 .caption-portfolio-list-item {
   display: block;
   border-bottom: 1px solid #e7e9fc;
+  width: calc((100%-48px) / 3);
 }
 
 .caption-portfolio {
