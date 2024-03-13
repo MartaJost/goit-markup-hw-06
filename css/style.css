@@ -492,6 +492,14 @@ footer {
 .footer-section {
   padding: 100px 0px 100px;
 }
+.footer-section-first {
+  margin-right: 120px;
+}
+
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .footer-social-title {
   font-weight: 500;
   font-size: 16px;
