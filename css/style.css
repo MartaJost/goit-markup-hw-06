@@ -187,7 +187,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/Hero/bg.jpg);
+    url(../images/hero/bg.jpg);
   background-size: cover;
   max-width: 1440px;
   margin-left: auto;
