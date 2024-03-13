@@ -89,7 +89,17 @@ body {
 }
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
+.page-header .menu-link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.page-header .menu-link:hover .page-header .menu-link:focus {
+  color: #404bbf;
+}
+
 .menu {
   display: flex;
   column-gap: 40px;
@@ -146,10 +156,27 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .info-link:hover,
 .info-link:focus {
   color: #404bbf;
+}
+
+.current {
+  position: relative;
+  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.current::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  background-color: #404bbf;
+  border-radius: 2px;
+  width: 100%;
+  height: 4px;
 }
 
 /*--section-first--*/
@@ -157,7 +184,7 @@ body {
   background-color: #2e2f42;
   padding: 188px 0 188px;
   background-image: linear-gradient(
-      rgba(46, 47, 66, 0.4),
+      rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/Hero/bg.jpg);
@@ -165,7 +192,8 @@ body {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
-  background-position: no-repeat;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .caption {
   margin-left: auto;
@@ -197,6 +225,7 @@ body {
   padding-right: 32px;
   display: block;
   margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover,
 .button:focus {
