@@ -387,7 +387,7 @@ body {
   transform: translateY(0%);
 }
 
-/* ============= footer =========== */
+/*  footer */
 footer {
   background-color: #2e2f42;
 }
@@ -554,7 +554,7 @@ footer {
   opacity: 1;
   visibility: visible;
 }
-/* ============== modal window ============= */
+/* modal window */
 .modal {
   position: absolute;
   border-radius: 4px;
@@ -599,7 +599,7 @@ footer {
 .modal-close-button:focus .modal-icon-close-button {
   fill: #fff;
 }
-/* ============ modal-window-text==============  */
+/* modal-window-text */
 .modal-window-text {
   font-weight: 500;
   font-size: 16px;
@@ -609,7 +609,7 @@ footer {
   text-align: center;
   color: #2e2f42;
 }
-/* ============ modal-window-form ============== */
+/* modal-window-form */
 .modal-window-form-input {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
@@ -731,7 +731,7 @@ footer {
   margin-bottom: 16px;
 }
 
-/* ============== MEDIA ========== */
+/* media */
 @media only screen and (max-width: 767px) {
   .menu,
   .header-contact {
