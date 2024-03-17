@@ -774,7 +774,7 @@ footer {
     width: 100%;
     height: 100%;
     z-index: 99999999;
-    padding: 72px 16px 40px 16px 
+    padding: 72px 16px 40px 16px;
     background-color: #fcfcfc;
     opacity: 0;
     visibility: hidden;
@@ -835,6 +835,10 @@ footer {
   .link-mobile-menu:focus {
     color: #404bbf;
   }
+
+  .first-item {
+    color: #4d5ae5;
+  }
   .mobile-menu-contact {
     display: block;
   }
@@ -845,6 +849,10 @@ footer {
     gap: 24px;
     margin-bottom: 48px;
   }
+  .mobile-menu-contact .first-item {
+    color: #404bc1;
+  }
+
   .current {
     color: #404bc1;
   }
@@ -915,6 +923,12 @@ footer {
   }
   .footer-input {
     width: 264px;
+  }
+  .footer-list-social {
+    margin-bottom: 144px;
+  }
+  .footer-text {
+    margin-bottom: 112px;
   }
   .section-first {
     max-width: 768px;
