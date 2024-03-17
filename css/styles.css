@@ -924,12 +924,6 @@ footer {
   .footer-input {
     width: 264px;
   }
-  .footer-list-social {
-    margin-bottom: 144px;
-  }
-  .footer-text {
-    margin-bottom: 112px;
-  }
   .section-first {
     max-width: 768px;
     padding: 112px 0;
@@ -1068,6 +1062,7 @@ footer {
   .footer-section-first {
     display: block;
     text-align: start;
+    margin-bottom: 72px;
   }
   .footer-social {
     margin-left: 24px;
